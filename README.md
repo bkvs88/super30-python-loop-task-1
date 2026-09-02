@@ -49,6 +49,150 @@ The solutions are mapped across the files as follows:
 | Find the largest number from a list | `find_largest_number.ipynb` |
 
 ---
+# Python Basic Programming Challenges
+
+A structured collection of foundational Python exercises practicing loops, conditional criteria, collections, and basic algorithmic string logic.
+
+## 📂 Program File Mapping & Sample Execution
+
+Below is the precise mapping of your submitted notebooks along with their specific inputs, core implementation logic, and expected console outputs.
+
+### 1. Print Numbers 1 to 100
+* **File:** `Source_8.ipynb` (or your 1-100 printing notebook)
+* **Logic Used:** Demonstrates both a standard `for i in range(1, 101)` loop and a conditional `while i <= 100` sequence tracking structure.
+* **Sample Output:**
+  ```text
+  1
+  2
+  3
+  ...
+  100
+  ```
+
+### 2. Print Even Numbers from 1 to 100
+* **File:** `Source_2.ipynb`
+* **Logic Used:** Optimized looping via `range(2, 101, 2)` alongside a fallback condition filter check `if i % 2 == 0` within a manual iteration index.
+* **Sample Output:**
+  ```text
+  2
+  4
+  6
+  ...
+  100
+  ```
+
+### 3. Print Odd Numbers from 1 to 100
+* **File:** `Source_7.ipynb`
+* **Logic Used:** Implements custom index stepping `range(1, 101, 2)` matching an alternative modulo boundary validator rule `if i % 2 == 1`.
+* **Sample Output:**
+  ```text
+  1
+  3
+  5
+  ...
+  99
+  ```
+
+### 4. Multiplication Table (1 to 20)
+* **File:** `Source_6.ipynb`
+* **Logic Used:** Takes a terminal input via `int(input())` and uses `range(1, 21)` to map out products sequentially.
+* **Sample Input:** `6`
+* **Sample Output:**
+  ```text
+  Displaying 6 table 
+  6 X 1 = 6
+  6 X 2 = 12
+  ...
+  6 X 20 = 120
+  ```
+
+### 5. Calculate Factorial Without Built-Ins
+* **File:** `Source_3.ipynb`
+* **Logic Used:** Applies a manual accumulator variable `fact = 1` decremented continuously via a continuous execution `while num_inp >= 1` logic path.
+* **Sample Input:** `5`
+* **Sample Output:**
+  ```text
+  Total factorial of 5 is 120
+  ```
+
+### 6. Filter Numbers Divisible by 3
+* **File:** `Source_1.ipynb`
+* **Logic Used:** Iterates over a designated workspace sequence, scanning for `if i % 3 == 0` flags to build out a refined dynamic list element.
+* **Sample Input Array:** `[12, 7, 9, 20, 33, 42, 8, 15]`
+* **Sample Output:**
+  ```text
+  Following numbers are divisible by 3 for given list [12, 7, 9, 20, 33, 42, 8, 15]
+  [12, 9, 33, 42, 15]
+  ```
+
+### 7. Print String Lengths from a List
+* **File:** `Source_10.ipynb`
+* **Logic Used:** Steps through elements, tracking character bounds using the native embedded system property layout `len(i)`.
+* **Sample Input Array:** `["Python", "Java", "C++", "JavaScript", "Go"]`
+* **Sample Output:**
+  ```text
+  length of Python is 6
+  length of Java is 4
+  length of C++ is 3
+  length of JavaScript is 10
+  length of Go is 2
+  ```
+
+### 8. Unpack and Iterate a Student Dictionary
+* **File:** `Source_4.ipynb`
+* **Logic Used:** Safely extracts keys and relational dictionary pairings together dynamically by using the structural loop pattern `for key, value in student.items()`.
+* **Sample Input Dictionary:**
+  ```python
+  student = {"name": "Rahul", "age": 22, "course": "Data Science", "city": "Bangalore"}
+  ```
+* **Sample Output:**
+  ```text
+  name : Rahul 
+  age : 22 
+  course : Data Science 
+  city : Bangalore 
+  ```
+
+### 9. Reverse a String Manually (No Slicing)
+* **File:** `Source_9.ipynb`
+* **Logic Used:** Loops forward element-by-element over characters, modifying the destination target variable via head-appending configuration `reversed_str = i + reversed_str`.
+* **Sample Input:** `"HELLO"`
+* **Sample Output:**
+  ```text
+  OLLEH
+  ```
+
+### 10. Extract Largest Number Without `max()`
+* **File:** `Source_5.ipynb`
+* **Logic Used:** Scans linear targets using a simple threshold tracker variable `large_number = 0`. It checks if individual elements exceed the current maximum using `if i > large_number`.
+* **Sample Input Array:** `[12, 7, 9, 20, 33, 42, 8, 15, 25, 99, 86]`
+* **Sample Output:**
+  ```text
+  99 is the Largest number from the given list [12, 7, 9, 20, 33, 42, 8, 15, 25, 99, 86] 
+  ```
+
+### 11. Sum of Numbers from 1 to n & 12. Vowel Counter
+* **File Status:** Unmapped / Placeholder scripts. These can be added as needed using a tracking pointer accumulation loop approach.
+
+---
+
+## 🛠️ Requirements & Setup
+
+### Prerequisites
+These scripts require a **Python 3.13+** environment with Jupyter runtime frameworks installed to operate:
+```bash
+pip install jupyter
+```
+
+### Running Locally
+```bash
+git clone https://github.com
+cd YOUR_REPOSITORY
+jupyter notebook
+```
+```
+
+If you plan to rename the actual files inside your repository to something standard (like `string_reversal.ipynb` instead of the source indicators), let me know your **preferred names** or if you need me to supply the completed script code for the **vowel counting** or **sum total ranges**!
 
 ## 🛠️ How to Run the Notebooks
 
