@@ -35,30 +35,27 @@ The solutions are mapped across the files as follows:
 
 | Challenge Description | Associated Implementation File |
 | :--- | :--- |
-| Print numbers 1 to 100 | `print_1_to_100.ipynb` |
-| Print all even numbers from 1 to 100 | `even_numbers.ipynb` |
-| Print all odd numbers from 1 to 100 | `odd_numbers.ipynb` |
-| Multiplication table from 1 to 20 | `multiplication_table.ipynb` |
-| Calculate the sum of numbers from 1 to n | `sum_of_numbers.ipynb` |
-| Factorial without built-in functions | `factorial_calculator.ipynb` |
-| Print numbers divisible by 3 | `divisible_by_three.ipynb` |
-| Print languages along with their length | `language_lengths.ipynb` |
-| Iterate through a student dictionary | `student_dict_iteration.ipynb` |
-| Count vowels in a string | `vowel_counter.ipynb` |
-| Reverse a string using a loop | `string_reversal.ipynb` |
-| Find the largest number from a list | `find_largest_number.ipynb` |
+| Print numbers 1 to 100 | `printnumbers.ipynb` |
+| Print all even numbers from 1 to 100 | `evennumbers.ipynb` |
+| Print all odd numbers from 1 to 100 | `oddnumbers.ipynb` |
+| Multiplication table from 1 to 20 | `multiplication.ipynb` |
+| Calculate the sum of numbers from 1 to n | `sumofnumbers.ipynb` |
+| Factorial without built-in functions | `factorial.ipynb` |
+| Print numbers divisible by 3 | `divisible_3.ipynb` |
+| Print languages along with their length | `stringlength.ipynb` |
+| Iterate through a student dictionary | `keyvalueprint.ipynb` |
+| Count vowels in a string | `vowelscount.ipynb` |
+| Reverse a string using a loop | `reversestring.ipynb` |
+| Find the largest number from a list | `maxnumber.ipynb` |
 
 ---
-# Python Basic Programming Challenges
-
-A structured collection of foundational Python exercises practicing loops, conditional criteria, collections, and basic algorithmic string logic.
 
 ## 📂 Program File Mapping & Sample Execution
 
 Below is the precise mapping of your submitted notebooks along with their specific inputs, core implementation logic, and expected console outputs.
 
 ### 1. Print Numbers 1 to 100
-* **File:** `Source_8.ipynb` (or your 1-100 printing notebook)
+* **File:** `printnumbers.ipynb`
 * **Logic Used:** Demonstrates both a standard `for i in range(1, 101)` loop and a conditional `while i <= 100` sequence tracking structure.
 * **Sample Output:**
   ```text
@@ -70,7 +67,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 2. Print Even Numbers from 1 to 100
-* **File:** `Source_2.ipynb`
+* **File:** `evennumbers.ipynb`
 * **Logic Used:** Optimized looping via `range(2, 101, 2)` alongside a fallback condition filter check `if i % 2 == 0` within a manual iteration index.
 * **Sample Output:**
   ```text
@@ -82,7 +79,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 3. Print Odd Numbers from 1 to 100
-* **File:** `Source_7.ipynb`
+* **File:** `oddnumbers.ipynb`
 * **Logic Used:** Implements custom index stepping `range(1, 101, 2)` matching an alternative modulo boundary validator rule `if i % 2 == 1`.
 * **Sample Output:**
   ```text
@@ -94,7 +91,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 4. Multiplication Table (1 to 20)
-* **File:** `Source_6.ipynb`
+* **File:** `multiplication.ipynb`
 * **Logic Used:** Takes a terminal input via `int(input())` and uses `range(1, 21)` to map out products sequentially.
 * **Sample Input:** `6`
 * **Sample Output:**
@@ -107,7 +104,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 5. Calculate Factorial Without Built-Ins
-* **File:** `Source_3.ipynb`
+* **File:** `factorial.ipynb`
 * **Logic Used:** Applies a manual accumulator variable `fact = 1` decremented continuously via a continuous execution `while num_inp >= 1` logic path.
 * **Sample Input:** `5`
 * **Sample Output:**
@@ -116,7 +113,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 6. Filter Numbers Divisible by 3
-* **File:** `Source_1.ipynb`
+* **File:** `divisible_3.ipynb`
 * **Logic Used:** Iterates over a designated workspace sequence, scanning for `if i % 3 == 0` flags to build out a refined dynamic list element.
 * **Sample Input Array:** `[12, 7, 9, 20, 33, 42, 8, 15]`
 * **Sample Output:**
@@ -126,7 +123,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 7. Print String Lengths from a List
-* **File:** `Source_10.ipynb`
+* **File:** `stringlength.ipynb`
 * **Logic Used:** Steps through elements, tracking character bounds using the native embedded system property layout `len(i)`.
 * **Sample Input Array:** `["Python", "Java", "C++", "JavaScript", "Go"]`
 * **Sample Output:**
@@ -139,7 +136,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 8. Unpack and Iterate a Student Dictionary
-* **File:** `Source_4.ipynb`
+* **File:** `keyvalueprint.ipynb`
 * **Logic Used:** Safely extracts keys and relational dictionary pairings together dynamically by using the structural loop pattern `for key, value in student.items()`.
 * **Sample Input Dictionary:**
   ```python
@@ -154,7 +151,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 9. Reverse a String Manually (No Slicing)
-* **File:** `Source_9.ipynb`
+* **File:** `reversestring.ipynb`
 * **Logic Used:** Loops forward element-by-element over characters, modifying the destination target variable via head-appending configuration `reversed_str = i + reversed_str`.
 * **Sample Input:** `"HELLO"`
 * **Sample Output:**
@@ -163,7 +160,7 @@ Below is the precise mapping of your submitted notebooks along with their specif
   ```
 
 ### 10. Extract Largest Number Without `max()`
-* **File:** `Source_5.ipynb`
+* **File:** `maxnumber.ipynb`
 * **Logic Used:** Scans linear targets using a simple threshold tracker variable `large_number = 0`. It checks if individual elements exceed the current maximum using `if i > large_number`.
 * **Sample Input Array:** `[12, 7, 9, 20, 33, 42, 8, 15, 25, 99, 86]`
 * **Sample Output:**
@@ -171,8 +168,23 @@ Below is the precise mapping of your submitted notebooks along with their specif
   99 is the Largest number from the given list [12, 7, 9, 20, 33, 42, 8, 15, 25, 99, 86] 
   ```
 
-### 11. Sum of Numbers from 1 to n & 12. Vowel Counter
-* **File Status:** Unmapped / Placeholder scripts. These can be added as needed using a tracking pointer accumulation loop approach.
+### 11. Sum of Numbers from 1 to n
+* **File:** `sumofnumbers.ipynb`
+* **Logic Used:** Uses an accumulator variable initialized to 0, then iteratively adds each number from 1 to `n` using a `for` loop with `range(1, n+1)`.
+* **Sample Input:** `5`
+* **Sample Output:**
+  ```text
+  Sum of numbers from 1 to 5 is 15
+  ```
+
+### 12. Count Vowels in a String
+* **File:** `vowelscount.ipynb`
+* **Logic Used:** Iterates through each character in the input string and checks if it matches any vowel (a, e, i, o, u) using conditional logic, maintaining a counter variable.
+* **Sample Input:** `"Hello World"`
+* **Sample Output:**
+  ```text
+  Total vowels in the string: 3
+  ```
 
 ---
 
@@ -186,13 +198,12 @@ pip install jupyter
 
 ### Running Locally
 ```bash
-git clone https://github.com
-cd YOUR_REPOSITORY
+git clone https://github.com/bkvs88/super30-python-loop-task-1
+cd super30-python-loop-task-1
 jupyter notebook
 ```
-```
 
-If you plan to rename the actual files inside your repository to something standard (like `string_reversal.ipynb` instead of the source indicators), let me know your **preferred names** or if you need me to supply the completed script code for the **vowel counting** or **sum total ranges**!
+---
 
 ## 🛠️ How to Run the Notebooks
 
@@ -206,10 +217,10 @@ pip install jupyter
 Clone the repository and launch the Jupyter interface to interact with your solutions:
 ```bash
 # Clone this repository
-git clone https://github.com
+git clone https://github.com/bkvs88/super30-python-loop-task-1
 
 # Navigate into the project folder
-cd YOUR_REPOSITORY_NAME
+cd super30-python-loop-task-1
 
 # Start the Jupyter Notebook server
 jupyter notebook
